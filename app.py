@@ -1,5 +1,5 @@
-from flask import Flask, request, jsonify
 from flask_cors import CORS
+from flask import Flask, request, jsonify
 import joblib
 import numpy as np
 
@@ -54,4 +54,4 @@ def predict():
     return jsonify({'prediction': result})
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=10000, debug=True)
+    app.run(debug=False)
