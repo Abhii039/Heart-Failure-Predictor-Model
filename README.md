@@ -69,8 +69,8 @@ HeartFailurePredictor/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/HeartFailurePredictor.git
-   cd HeartFailurePredictor
+   git clone https://github.com/Abhii039/Heart-Failure-Predictor-Model.git
+   cd Heart-Failure-Predictor-Model
    ```
 
 2. Install dependencies:
